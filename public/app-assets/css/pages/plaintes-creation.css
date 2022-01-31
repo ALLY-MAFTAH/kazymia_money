@@ -1,0 +1,33 @@
+/*----------------------------------------
+  Plaintes Cretion
+------------------------------------------*/
+.account_creation_form label
+{
+		margin-top:30px;
+}
+
+
+
+@media (max-width: 767px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .date{
+      display:none;
+  }
+  .claimant{
+      display: none;
+   }
+  .defendant{
+    display: none;
+  }
+}
+
+
+@media  (min-width: 768px) and (max-width:991px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .date{
+      display:none;
+  }
+  .defendant{
+    display: none;
+  }
+}

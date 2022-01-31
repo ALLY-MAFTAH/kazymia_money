@@ -1,0 +1,67 @@
+/*----------------------------------------
+  Plaintes Documents
+------------------------------------------*/
+.attribution-action-btn
+{
+    padding-left: 10px;
+}
+.documents_table{
+	padding:15px;
+}
+
+#data-table-documents{
+	border-top:2px solid #dddddd;
+	border-right:2px solid #dddddd;
+	border-bottom:2px solid #dddddd;
+	border-left:2px solid #dddddd;
+}
+
+.documentsBody{
+	padding:15px;
+}
+
+.documentsBody th{
+position: sticky; top: 0;
+background-color: #f6f6f6;
+}
+
+.doc_dropzone{
+	  width:50%;
+  }
+
+@media (max-width: 767px) {
+  /* CSS that should be displayed if width is less than 768px goes here */
+  .doc_type{
+      display:none;
+  }
+  .doc_size{
+      display: none;
+   }
+  .doc_date{
+    display: none;
+  }
+  .doc_createdby{
+	display:none;
+  }
+  .doc_dropzone{
+	  width:100%;
+  }
+}
+
+
+@media  (min-width: 768px) and (max-width:991px) {
+  /* CSS that should be displayed if width is greater than 767px but less than 991px goes here */
+ 
+  .doc_size{
+      display: none;
+   }
+  .doc_date{
+    display: none;
+  }
+  .doc_createdby{
+	display:none;
+  }
+  .doc_dropzone{
+	  width:60%;
+  }
+}

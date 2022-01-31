@@ -1,0 +1,25 @@
+/*----------------------------------------
+  Plaintes Notes
+------------------------------------------*/
+.notes_table{
+        height: 500px; 
+        border-top:2px solid #dddddd;
+        border-right:2px solid #dddddd;
+        border-bottom:2px solid #dddddd;
+        border-left:1px solid #dddddd;
+}
+
+.notesList td , th{
+border-left: 1px solid #dddddd;
+border-left-width: 1px;
+border-left-style: solid;
+border-left-color: rgb(221, 221, 221);
+}
+.notesBody{
+	padding:15px;
+}
+
+.notesBody th{
+position: sticky; top: 0;
+background-color: #f6f6f6;
+}

@@ -1,0 +1,67 @@
+/*----------------------------------------
+  Plaintes Attribution
+------------------------------------------*/
+.attribution-action-btn
+{
+    padding-left: 10px;
+}
+ 
+#check_box{
+    /*padding-top: 24px !important;*/
+    
+}
+
+.check_box{
+    text-align:center;
+}
+
+.attributionBody th{
+position: sticky; top: 0;
+background-color: #f6f6f6;
+padding-bottom: 0px;
+}
+
+.attribution_table{
+        height: 500px; 
+        border-top:2px solid #dddddd;
+        border-right:2px solid #dddddd;
+        border-bottom:2px solid #dddddd;
+        border-left:1px solid #dddddd;
+}
+
+.attributionBody{
+    margin-top: 4px;
+}
+
+#data-table-attribution{
+    margin:2px;
+}
+
+.attribution-header{
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+@media (max-width: 767px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .date{
+      display:none;
+  }
+  .claimant{
+      display: none;
+   }
+  .defendant{
+    display: none;
+  }
+}
+
+
+@media  (min-width: 768px) and (max-width:991px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .date{
+      display:none;
+  }
+  .defendant{
+    display: none;
+  }
+}
